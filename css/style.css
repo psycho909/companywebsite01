@@ -39,19 +39,22 @@ body{
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover{
 	color:#fff;
-	background: #003459;
+	background: #03A9F4;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color:#00A8E8;
+	color:#03A9F4;
 }
 .navbar-default .navbar-toggle:hover {
-    background-color: #003459;
+    background-color: #03A9F4;
+}
+.navbar-default .navbar-toggle {
+	border:none;
 }
 .navbar-default .navbar-toggle .icon-bar{
 	background-color:#fff ;
 }
 .navbar-default .navbar-toggle:focus{
-	background-color: #003459;
+	background-color: #03A9F4;
 }
 /*navbar-end*/
 
