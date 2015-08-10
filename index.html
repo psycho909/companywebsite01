@@ -11,7 +11,6 @@
 <link href="./css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
 <link rel="stylesheet" href="css/style.css">
-<script src="./js/minwt.auto_full_height.mini.js"></script>
 <style>
 .carousel-inner .item{
 	background-image: url("images/s.png");
@@ -20,19 +19,21 @@
 .carousel-inner .item .fill,
 .carousel-inner .item .active .fill{
 	mix-blend-mode: overlay;
+	-webkit-mix-blend-mode: overlay;
+	-moz-mix-blend-mode: overlay;
 }
-#main .carousel .carousel-inner .btn-primary{
+#main.carousel .carousel-inner .btn-primary{
 	background-color: #12938D;
 	border-color: #12938D;
 }
-#main .carousel .carousel-inner .carousel-title{
+#main.carousel .carousel-inner .carousel-title{
 	margin-bottom: 40px;
 	font-style: italic;
 	font-size: 44px;
 	color:#FFEB3B;
 	font-weight: 900;
 }
-#main .carousel .carousel-inner .btn-lg{
+#main.carousel .carousel-inner .btn-lg{
 	padding: 25px 45px;
 	font-size: 18px;
 	text-shadow:2px 3px 6px rgba(0,0,0,.6);
@@ -67,59 +68,51 @@
 </header>
 <!-- 導航列結束 -->
 <!-- 內容開始 -->
-<section id="main" >
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="main-carousel carousel slide" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target=".main-carousel" data-slide-to="0" class="active"></li>
-						<li data-target=".main-carousel" data-slide-to="1"></li>
-						<li data-target=".main-carousel" data-slide-to="2"></li>
-						<li data-target=".main-carousel" data-slide-to="3"></li>
-					</ol>
+<section id="main" class="main-carousel carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target=".main-carousel" data-slide-to="0" class="active"></li>
+		<li data-target=".main-carousel" data-slide-to="1"></li>
+		<li data-target=".main-carousel" data-slide-to="2"></li>
+		<li data-target=".main-carousel" data-slide-to="3"></li>
+	</ol>
 
-					<div class="carousel-inner" _height="auto">
-						<div class="item active">
-							<a href="index.html"><div class="fill" style="background-image:url('./images/01.jpg');"></div></a>
-							<div class="carousel-caption">
-								<h1 class="carousel-title">公司資訊</h1>
-								<a href="index.html" class="btn btn-primary btn-lg">公司資訊</a>
-							</div>
-						</div>
-						<div class="item">
-							<a href="product.html"><div class="fill" style="background-image:url('./images/02.jpg');"></div></a>
-							<div class="carousel-caption">
-							<h1 class="carousel-title">產品</h1>
-								<a href="product.html" class="btn btn-primary btn-lg">產品</a>
-							</div>
-						</div>
-						<div class="item">
-							<a href="application01.html"><div class="fill" style="background-image:url('./images/03.jpg');"></div></a>
-							<div class="carousel-caption">
-							<h1 class="carousel-title">應用</h1>
-								<a href="application01.html" class="btn btn-primary btn-lg">應用</a>
-							</div>
-						</div>
-						<div class="item">
-							<a href="contact.html"><div class="fill" style="background-image:url('./images/04.gif');"></div></a>
-							<div class="carousel-caption">
-							<h1 class="carousel-title">聯絡我們</h1>
-								<a href="contact.html" class="btn btn-primary btn-lg">聯絡我們</a>
-							</div>
-						</div>
-					</div>
-
-					<a class="left carousel-control" href=".main-carousel" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					</a>
-					<a class="right carousel-control" href=".main-carousel" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					</a>
-				</div>
+	<div class="carousel-inner" _height="auto">
+		<div class="item active">
+			<a href="index.html"><div class="fill bg1"></div></a>
+			<div class="carousel-caption">
+				<h1 class="carousel-title">公司資訊</h1>
+				<a href="index.html" class="btn btn-primary btn-lg">公司資訊</a>
+			</div>
+		</div>
+		<div class="item">
+			<a href="product.html"><div class="fill bg2"></div></a>
+			<div class="carousel-caption">
+			<h1 class="carousel-title">產品</h1>
+				<a href="product.html" class="btn btn-primary btn-lg">產品</a>
+			</div>
+		</div>
+		<div class="item">
+			<a href="application01.html"><div class="fill bg3"></div></a>
+			<div class="carousel-caption">
+			<h1 class="carousel-title">應用</h1>
+				<a href="application01.html" class="btn btn-primary btn-lg">應用</a>
+			</div>
+		</div>
+		<div class="item">
+			<a href="contact.html"><div class="fill bg4"></div></a>
+			<div class="carousel-caption">
+			<h1 class="carousel-title">聯絡我們</h1>
+				<a href="contact.html" class="btn btn-primary btn-lg">聯絡我們</a>
 			</div>
 		</div>
 	</div>
+
+	<a class="left carousel-control" href=".main-carousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	</a>
+	<a class="right carousel-control" href=".main-carousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	</a>
 </section>
 <!-- 內容結束 -->
 <!-- footer開始 -->
