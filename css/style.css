@@ -155,10 +155,10 @@ body{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-#application-main .application-main-contant img{
+/*#application-main .application-main-contant img{
 	width: 100%;
 	height: 300px;
-}
+}*/
 #application-main .application-main-contant{
 	font-size: 16px;
 	line-height: 2em;

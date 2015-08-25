@@ -3,22 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="keywords" content="啟貿,啟貿實業有限公司,聯絡我們" />
+<title>啟貿實業有限公司|應用</title>
+<meta name="keywords" content="啟貿,啟貿實業有限公司,應用" />
 <meta namge="description" content="啟貿實業有限公司" />
-<title>啟貿實業有限公司|聯絡我們</title>
 <script src="./js/jquery-2.1.4.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <link href="./css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-<link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="./js/minwt.auto_full_height.mini.js"></script>
 <style>
-#contact-main{
+#application-main{
 	background-color: #f2f2f2;
 }
-#contact-main .icon{
-	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+.jumbotron-bg{
+	background-image: url('images/5-1.jpg');
+	background-size: cover;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.jumbotron-bg .title{
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	color:#fff;
+	left: -1000px;
+	font-size: 62px;
+	text-shadow:0 0 5px #000;
+	font-weight: bold;
+	display: block;
+	height: 100px;
+	text-align: center;
+	line-height: 80px;
+	border: 10px solid #fff;
+}
+.media-img{
+	padding: 0;
+	text-align: center;
+}
+.media-img .cc{
+	width: 160px;
+	margin-top: 12px;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+.media-content{
+	font-weight: bold;
+	padding: 0;
+}
+.media-content ul{
+	padding-left: 22px;
 }
 </style>
 </head>
@@ -41,8 +75,8 @@
 					<li><a href="index.html">首頁</a></li>
 					<li><a href="about.html">公司資訊</a></li>
 					<li><a href="product.html">產品</a></li>
-					<li><a href="application01.html">應用</a></li>
-					<li class="active"><a href="contact.html">聯絡我們</a></li>
+					<li class="active"><a href="application01.html">應用</a></li>
+					<li><a href="contact.html">聯絡我們</a></li>
 				</ul>
 			</div>
 		</div>
@@ -50,38 +84,32 @@
 </header>
 <!-- 導航列結束 -->
 <!-- 內容開始 -->
-<section id="contact-main" _height="auto">
+<section id="application-main" _height="auto">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<div class="contact-us-text">聯絡我們</div>
+			<div class="col-md-3">
+				<h2>應用</h2>
 				<span class="line"></span>
+				<div class="list-group application-list-group">
+					<a href="application01.html" class="list-group-item">過濾</a>
+					<a href="application02.html" class="list-group-item">吸音</a>
+					<a href="application03.html" class="list-group-item">緩衝</a>
+					<a href="application04.html" class="list-group-item">保存性</a>
+					<a href="application05.html" class="list-group-item active">墊片</a>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 icon-main">
-				<i class="fa fa-home text-center icon animated bounceIn"></i>
-				<div class="text-center contact-text-icon">啟貿實業有限公司</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 icon-main">
-				<i class="fa fa-thumb-tack text-center icon animated bounceIn"></i>
-				<div class="text-center contact-text-icon">新湖二路236號</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 icon-main">
-				<i class="fa fa-phone text-center icon animated bounceIn"></i>
-				<div class="text-center contact-text-icon">(02)2793-3344</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 icon-main">
-				<i class="fa fa-fax text-center icon animated bounceIn"></i>
-				<div class="text-center contact-text-icon">(02)2793-3344</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 icon-main">
-				<i class="fa fa-envelope text-center icon animated bounceIn"></i>
-				<div class="text-center contact-text-icon">erichuang@prohuntertackle.com</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 icon-main">
-				<i class="fa fa-home text-center icon animated bounceIn"></i>
-				<div class="text-center contact-text-icon">www.XXXX.com.tw</div>
+			<div class="col-md-9 application-main-contant">
+				<div class="jumbotron-bg">
+					<span class="title">墊片</span>
+				</div>
+				<div class="col-md-12 media-content">
+					<ul>
+						<li>一個良好的過濾器，墊片是一個關鍵原件之一。</li>
+						<li>許多墊片都使用這種非網狀聚氨酯泡棉。</li>
+						<li>由於它特殊設計的低滲透性且可調節硬度，即可過濾介質本身。所以此泡棉可以用來做於高效能空氣or液體密封</li>
+					</ul>
+					<p>此產品一般使用於電器，工業管道，航海用具...</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -120,4 +148,12 @@
 </footer>
 <!-- footer結束 -->
 </body>
+<script>
+	function auto(){
+		$('.jumbotron-bg').find('.title').animate({
+			left:100
+		},1000)
+	}
+	setInterval('auto()',1000)
+</script>
 </html>
